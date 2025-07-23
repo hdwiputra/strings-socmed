@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "Strings",
+    "slug": "strings",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/favicon.png",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "72d9a5cd-f333-4c36-b5fa-f4844593e1eb"
+      }
+    },
+    "owner": "hdwiputra",
+    "android": {
+      "package": "com.hdwiputra.strings",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#000000"
+      },
+      "edgeToEdgeEnabled": true
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/72d9a5cd-f333-4c36-b5fa-f4844593e1eb"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": ["expo-secure-store"]
+  }
+}
